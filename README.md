@@ -13,7 +13,7 @@ ESC pause
 
 
 Sprites:
-the sprites are my own
+The sprites are my own
 
 Music y sounds:
 Alarm: https://www.youtube.com/watch?v=SnoJ2hR9hwg
