@@ -7,15 +7,21 @@ The game has 10 different levels, with different types of destinations, and in e
 
 
 Controls:
+
 WASD move
+
 Left mouse click to interact
+
 ESC pause
 
 
+
 Sprites:
+
 The sprites are my own
 
 Music y sounds:
+
 Alarm: https://www.youtube.com/watch?v=SnoJ2hR9hwg
 
 Video with a brief explanation of operation: (Spanish):
