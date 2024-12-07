@@ -9,9 +9,7 @@ The game has 10 different levels, with different types of destinations, and in e
 Controls:
 
 WASD move
-
 Left mouse click to interact
-
 ESC pause
 
 
