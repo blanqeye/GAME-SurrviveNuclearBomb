@@ -25,6 +25,8 @@ The sprites are my own
 
 # Music y sounds:
 
-Alarm: https://www.youtube.com/watch?v=SnoJ2hR9hwg
+Alarm 1: https://www.youtube.com/watch?v=SnoJ2hR9hwg
+Alarm 2: https://www.youtube.com/watch?v=B3NrvfYsGto
+Alarm 3: https://www.youtube.com/watch?v=b-6oNihlLGo
 
 Video with a brief explanation of operation: (Spanish):
