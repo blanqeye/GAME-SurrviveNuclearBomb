@@ -1,0 +1,920 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7AFFDCF3-5DFF-389A-AD30-B9EBCBC303C2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>SurviveNuclearBomb</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\bin\SurviveNuclearBomb\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SurviveNuclearBomb.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SurviveNuclearBomb</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\bin\SurviveNuclearBomb\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SurviveNuclearBomb.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SurviveNuclearBomb</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\bin\SurviveNuclearBomb\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SurviveNuclearBomb.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SurviveNuclearBomb</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\bin\SurviveNuclearBomb\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SurviveNuclearBomb.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SurviveNuclearBomb</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\audio\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\extensions;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\editor-support;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\base;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\recast\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\tinyxml2\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxhash\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxtea\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\clipper\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\edtaa3func\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\ConvertUTF\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\poly2tri\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\md5\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\unzip\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include\bullet;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\audio\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\extensions;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\editor-support;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\base;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\recast\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\tinyxml2\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxhash\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxtea\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\clipper\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\edtaa3func\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\ConvertUTF\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\poly2tri\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\md5\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\unzip\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include\bullet;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\audio\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\extensions;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\editor-support;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\base;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\recast\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\tinyxml2\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxhash\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxtea\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\clipper\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\edtaa3func\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\ConvertUTF\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\poly2tri\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\md5\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\unzip\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include\bullet;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/uv/prebuilt/win32/uv.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/websockets/prebuilt/win32/websockets.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/curl/prebuilt/win32/libcurl.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Debug\cocos2d.lib;lib\Debug\external.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\prebuilt\win32\debug\libbox2d.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\prebuilt\win32\debug-lib\libchipmunk.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\Debug\ext_recast.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\prebuilt\win32\debug\libbullet.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\prebuilt\win32\libwebp.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\prebuilt\win32\websockets.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\prebuilt\win32\libssl.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\Debug\ext_tinyxml2.lib;lib\Debug\ext_xxhash.lib;lib\Debug\ext_xxtea.lib;lib\Debug\ext_clipper.lib;lib\Debug\ext_edtaa3func.lib;lib\Debug\ext_convertUTF.lib;lib\Debug\ext_poly2tri.lib;lib\Debug\ext_md5.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\prebuilt\win32\libcurl.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\prebuilt\win32\libpng.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\Debug\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/Debug/SurviveNuclearBomb.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Debug/SurviveNuclearBomb.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\audio\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\extensions;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\editor-support;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\base;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\recast\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\tinyxml2\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxhash\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxtea\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\clipper\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\edtaa3func\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\ConvertUTF\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\poly2tri\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\md5\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\unzip\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include\bullet;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\audio\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\extensions;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\editor-support;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\base;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\recast\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\tinyxml2\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxhash\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxtea\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\clipper\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\edtaa3func\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\ConvertUTF\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\poly2tri\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\md5\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\unzip\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include\bullet;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\audio\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\extensions;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\editor-support;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\base;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\recast\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\tinyxml2\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxhash\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxtea\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\clipper\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\edtaa3func\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\ConvertUTF\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\poly2tri\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\md5\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\unzip\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include\bullet;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/uv/prebuilt/win32/uv.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/websockets/prebuilt/win32/websockets.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/curl/prebuilt/win32/libcurl.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Release\cocos2d.lib;lib\Release\external.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\prebuilt\win32\release\libbox2d.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\prebuilt\win32\release-lib\libchipmunk.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\Release\ext_recast.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\prebuilt\win32\release\libbullet.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\prebuilt\win32\libwebp.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\prebuilt\win32\websockets.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\prebuilt\win32\libssl.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\Release\ext_tinyxml2.lib;lib\Release\ext_xxhash.lib;lib\Release\ext_xxtea.lib;lib\Release\ext_clipper.lib;lib\Release\ext_edtaa3func.lib;lib\Release\ext_convertUTF.lib;lib\Release\ext_poly2tri.lib;lib\Release\ext_md5.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\prebuilt\win32\libcurl.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\prebuilt\win32\libpng.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\Release\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/Release/SurviveNuclearBomb.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/Release/SurviveNuclearBomb.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\audio\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\extensions;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\editor-support;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\base;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\recast\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\tinyxml2\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxhash\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxtea\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\clipper\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\edtaa3func\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\ConvertUTF\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\poly2tri\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\md5\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\unzip\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include\bullet;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\audio\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\extensions;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\editor-support;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\base;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\recast\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\tinyxml2\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxhash\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxtea\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\clipper\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\edtaa3func\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\ConvertUTF\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\poly2tri\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\md5\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\unzip\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include\bullet;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\audio\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\extensions;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\editor-support;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\base;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\recast\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\tinyxml2\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxhash\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxtea\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\clipper\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\edtaa3func\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\ConvertUTF\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\poly2tri\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\md5\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\unzip\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include\bullet;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/uv/prebuilt/win32/uv.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/websockets/prebuilt/win32/websockets.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/curl/prebuilt/win32/libcurl.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\cocos2d.lib;lib\MinSizeRel\external.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\prebuilt\win32\release\libbox2d.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\prebuilt\win32\release-lib\libchipmunk.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\MinSizeRel\ext_recast.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\prebuilt\win32\release\libbullet.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\prebuilt\win32\libwebp.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\prebuilt\win32\websockets.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\prebuilt\win32\libssl.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\MinSizeRel\ext_tinyxml2.lib;lib\MinSizeRel\ext_xxhash.lib;lib\MinSizeRel\ext_xxtea.lib;lib\MinSizeRel\ext_clipper.lib;lib\MinSizeRel\ext_edtaa3func.lib;lib\MinSizeRel\ext_convertUTF.lib;lib\MinSizeRel\ext_poly2tri.lib;lib\MinSizeRel\ext_md5.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\prebuilt\win32\libcurl.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\prebuilt\win32\libpng.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\MinSizeRel\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/MinSizeRel/SurviveNuclearBomb.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/MinSizeRel/SurviveNuclearBomb.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\audio\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\extensions;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\editor-support;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\base;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\recast\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\tinyxml2\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxhash\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxtea\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\clipper\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\edtaa3func\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\ConvertUTF\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\poly2tri\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\md5\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\unzip\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include\bullet;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\audio\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\extensions;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\editor-support;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\base;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\recast\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\tinyxml2\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxhash\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxtea\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\clipper\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\edtaa3func\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\ConvertUTF\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\poly2tri\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\md5\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\unzip\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include\bullet;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\audio\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\extensions;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\editor-support;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\base;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\platform\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\recast\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\tinyxml2\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxhash\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\xxtea\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\clipper\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\edtaa3func\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\ConvertUTF\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\poly2tri\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\md5\..;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\unzip\.;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\include\bullet;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\include\win32;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/uv/prebuilt/win32/uv.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/websockets/prebuilt/win32/websockets.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/curl/prebuilt/win32/libcurl.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\cocos2d.lib;lib\RelWithDebInfo\external.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\Box2D\prebuilt\win32\release\libbox2d.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\chipmunk\prebuilt\win32\release-lib\libchipmunk.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\RelWithDebInfo\ext_recast.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\bullet\prebuilt\win32\release\libbullet.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\webp\prebuilt\win32\libwebp.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\websockets\prebuilt\win32\websockets.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\prebuilt\win32\libssl.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\RelWithDebInfo\ext_tinyxml2.lib;lib\RelWithDebInfo\ext_xxhash.lib;lib\RelWithDebInfo\ext_xxtea.lib;lib\RelWithDebInfo\ext_clipper.lib;lib\RelWithDebInfo\ext_edtaa3func.lib;lib\RelWithDebInfo\ext_convertUTF.lib;lib\RelWithDebInfo\ext_poly2tri.lib;lib\RelWithDebInfo\ext_md5.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\curl\prebuilt\win32\libcurl.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\png\prebuilt\win32\libpng.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\RelWithDebInfo\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/RelWithDebInfo/SurviveNuclearBomb.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/bin/SurviveNuclearBomb/RelWithDebInfo/SurviveNuclearBomb.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb -BC:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32 --check-stamp-file C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb -BC:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32 --check-stamp-file C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb -BC:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32 --check-stamp-file C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb -BC:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32 --check-stamp-file C:/Users/pablo/OneDrive/Escritorio/SurviveNuclearBomb/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\BunkerScene.h" />
+    <ClInclude Include="..\Classes\InventarioGlobal.h" />
+    <ClInclude Include="..\Classes\InventarioMapa.h" />
+    <ClInclude Include="..\Classes\MenuPrincipal.h" />
+    <ClInclude Include="..\Classes\PantallaCarga.h" />
+    <ClInclude Include="..\Classes\PersonajeMapa.h" />
+    <ClInclude Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\JuegoScene.h" />
+    <ClInclude Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\main.h" />
+    <ClInclude Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\resource.h" />
+    <ClCompile Include="..\Classes\BunkerScene.cpp" />
+    <ClCompile Include="..\Classes\InventarioGlobal.cpp" />
+    <ClCompile Include="..\Classes\InventarioMapa.cpp" />
+    <ClCompile Include="..\Classes\MenuPrincipal.cpp" />
+    <ClCompile Include="..\Classes\PantallaCarga.cpp" />
+    <ClCompile Include="..\Classes\PersonajeMapa.cpp" />
+    <ClCompile Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\JuegoScene.cpp" />
+    <ClCompile Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\main.cpp" />
+    <ResourceCompile Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\game.rc" />
+    <ClInclude Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Resources\CloseNormal.png" />
+    <ClInclude Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Resources\CloseSelected.png" />
+    <ClInclude Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Resources\HelloWorld.png" />
+    <ClInclude Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Resources\fonts\Marker Felt.ttf" />
+    <ClInclude Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Resources\fonts\arial.ttf" />
+    <ClInclude Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\Resources\res\.gitkeep" />
+    <ClCompile Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\cocos2d\cocos\precheader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{CBC69FFD-67C7-30E3-82EF-E23014983402}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\SYNC_RESOURCE-SurviveNuclearBomb.vcxproj">
+      <Project>{28C2D4D5-54EB-3514-8467-01928849EB97}</Project>
+      <Name>SYNC_RESOURCE-SurviveNuclearBomb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{0F59C1FF-4278-3DD3-9C31-F06C24582BAF}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{54C04BF6-804D-38D8-830E-FFD363A81AEE}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{0D03C6A7-05AE-36FF-A03D-256B2DD74201}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{34D04D2E-55E4-30F2-9881-5C43F0DC0823}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{54EC8E0F-D144-3DFD-B44B-85EA4A688CC7}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{AA0087AB-06A2-3469-A29E-83F5DD4EE0D5}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{DB189DB1-FA62-3B5F-BA63-9744999F8C04}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{D0C6381C-B76F-3CC5-B7B7-9A3DB3D483CC}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{63FC8DE9-14AE-3F03-982D-F996F54407BD}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{CE555305-694B-3223-9B9D-B7FB274D3037}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{9A079D05-A2BD-3366-8359-CD221CCC4D0B}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\pablo\OneDrive\Escritorio\SurviveNuclearBomb\proj.win32\engine\external\external.vcxproj">
+      <Project>{A13ABCCA-5F5F-37AF-96C2-05413081778F}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
