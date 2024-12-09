@@ -29,4 +29,4 @@ Alarm 1: https://www.youtube.com/watch?v=SnoJ2hR9hwg
 Alarm 2: https://www.youtube.com/watch?v=B3NrvfYsGto
 Alarm 3: https://www.youtube.com/watch?v=b-6oNihlLGo
 
-Video with a brief explanation of operation: (Spanish):
+Video with a brief explanation of operation: (Spanish): https://drive.google.com/file/d/1DpEFD42WMKdfn_e697S0F1wx47R0Uqn2/view?usp=sharing
